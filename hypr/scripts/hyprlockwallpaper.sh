@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sleep 5
 wallpaper=$(swww query)
 current_wallpaper=$(echo "$wallpaper" | awk -F '/home' '{print "/home" $2}')
 
